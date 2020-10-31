@@ -1,0 +1,37 @@
+
+@media (max-width: 991px) {
+    .about-icon a {
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 515px) {
+    #header-content h2 {
+        font-size: 32px;
+    }
+
+    #header-content span {
+        font-size: 32px;
+    }
+
+    .about-icon a {
+        width: 6px;
+        height: 6px;
+        font-size: 9px;
+    }
+
+    .step-timeline ul::before {
+        left: 17px;
+        top: 100px;
+        height: calc(100% - 350px);
+        left: 23px;
+
+    }
+
+    .step-timeline ul li::before {
+        left: -42px;
+    }
+}
