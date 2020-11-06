@@ -5,6 +5,15 @@
         height: 15px;
         font-size: 12px;
     }
+    #contact .contact-page-section {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 767px) {
+    #contact .contact-page-section {
+        margin-left: 20px;
+        margin-top: 50px;
+    }
 }
 
 
@@ -33,5 +42,11 @@
 
     .step-timeline ul li::before {
         left: -42px;
+    }
+}
+
+@media (max-width: 365px) {
+    .all-section-heading h2 {
+        font-size: 50px;
     }
 }
