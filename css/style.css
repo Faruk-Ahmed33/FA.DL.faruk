@@ -398,6 +398,17 @@ header {
     width: 100%;
 }
 /* Start Portfolio section  */
+#portfolio {
+    background: linear-gradient(to left, rgb(247, 0, 0) 0%, #ab1bbf 100%);
+}
+#portfolio h2 {
+    color: rgb(255, 255, 255);
+}
+#portfolio h2:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
 .single-portfolio {
     position: relative;
     margin-top: 20px;
@@ -406,6 +417,9 @@ header {
 .single-portfolio img {
     width: 100%;
     height: 300px;
+}
+.single-portfolio .portfolio-img {
+    border-radius: 13px;
 }
 .portfolio-overlay {
     text-align: center;
@@ -449,6 +463,9 @@ header {
     opacity: .6;
     z-index: -1;
 }
+.portfolio-overlay h3 {
+    color: white;
+}
 .single-portfolio:hover .portfolio-overlay {
     top: 0;
 }
@@ -468,6 +485,13 @@ header {
     border-radius: 120px;
     background: #222222 !important;
     border: none;
+}
+#contact .contact-page-section {
+    margin-left: 200px;
+    background: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: cover;
 }
 
 #contact h3 {
